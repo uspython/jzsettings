@@ -1,0 +1,30 @@
+{
+  "workbench.colorTheme": "Oceanic Reef Dark",
+  "quicktype.justTypes": true,
+  "editor.quickSuggestions": true,
+  "javascript.validate.enable": false,
+  "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnSave": true,
+  "clang-format.executable": "${workspaceRoot}/node_modules/.bin/clang-format",
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "fileheader.Author": "jeffzhao",
+  "fileheader.LastModifiedBy": "jeffzhao",
+  "fileheader.tpl": "// @flow\r\n/*\r\n * CityHomeClient\r\n * @Author: {author}\r\n * @Date: {createTime}\r\n * @Last Modified by:   {lastModifiedBy}\r\n * @Last Modified time: {updateTime}\r\n * Copyright  © 2019 Beijing Zhixun Innovation Co. Ltd. All rights reserved.\r\n */\r\n",
+  "editor.quickSuggestionsDelay": 0,
+  "todohighlight.toggleURI": true,
+  "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+  "files.exclude": {
+    "**/.git": true, // this is a default value
+    "**/.DS_Store": true, // this is a default value
+    "node_modules": false, // this excludes the folder only from the root of your workspace
+    "sourcemap": true,
+    "src/paint-by-number-editor": true,
+    "src/paint-by-number-tester": true,
+  },
+  "python.jediEnabled": false,
+  "flow.enabled": false,
+}
